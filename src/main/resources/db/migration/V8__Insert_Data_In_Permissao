@@ -1,0 +1,4 @@
+﻿INSERT INTO `permissao` (`descricao_permissao`) VALUES
+	('ADMIN'),
+	('MANAGER'),
+	('COMMON_USER');

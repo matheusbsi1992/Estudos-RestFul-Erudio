@@ -1,0 +1,8 @@
+CREATE TABLE `pessoa` (
+  `id_pessoa` bigint NOT NULL AUTO_INCREMENT,
+  `nome_pessoa` varchar(80) NOT NULL,
+  `sobre_nome_pessoa` varchar(80) NOT NULL,
+  `sexo_pessoa` varchar(1) NOT NULL,
+  `endereco_pessoa` varchar(150) NOT NULL,
+   PRIMARY KEY (`id_pessoa`)
+);

@@ -1,0 +1,53 @@
+cors:
+  originPattners: http://localhost:3000,http://localhost:9293
+file:
+  upload-dir: /var/upload
+security:
+  jwt:
+    token:
+      secret-key: L(Al$%@@!#%$(_=--<M>MMJJamedaD0s#rrfr1611)c
+      expire-length: 3600000
+server:
+  port: 9293
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/rest_with_spring_boot_erudio?useTimeZone=true&serverTimezone=UTC
+    username: root
+    password: 123456
+  jpa:
+    open-in-view: false
+    hibernate:
+      #ddl-auto: update
+      ddl-auto: update
+      show-sql: true
+      format-sql: true
+  servlet:
+    multipart:
+      enabled: true
+      file-size-threshold: 2KB
+      max-file-size: 200MB
+      max-request-size: 215MB
+spring-doc:
+  pathsToMatch:
+    - /auth/**
+    - /api/**/v1/**
+  swagger-ui:
+    user-root-path: true
+      #flyway:
+      #enabled: true
+      #locations: classpath:db/migration
+      #baseline-on-migrate: true
+
+      #properties:
+    # hibernate:
+    #dialect: org.hibernate.dialect.MySQL8Dialect
+
+    #spring:
+    #main:
+    ## web-application-type: reactive
+
+  #spring.web.application.type=none
+
+  #main:
+  #web-application-type: none

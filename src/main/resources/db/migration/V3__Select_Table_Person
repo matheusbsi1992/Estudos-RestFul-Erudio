@@ -1,0 +1,8 @@
+select * from pessoa;
+
+select *
+from pessoa
+where nome_pessoa='Mariana';
+
+select nome_pessoa
+from pessoa;

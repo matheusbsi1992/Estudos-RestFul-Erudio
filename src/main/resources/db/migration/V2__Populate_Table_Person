@@ -1,0 +1,11 @@
+INSERT INTO `pessoa` (`nome_pessoa`, `sobre_nome_pessoa`, `sexo_pessoa`, `endereco_pessoa`) VALUES
+('Matheus', 'Santos Andrade', 'M', 'Conjunto de Maria Helena'),
+('Ana', 'Silva Oliveira', 'F', 'Rua das Flores, 123'),
+('Carlos', 'Pereira Lima', 'M', 'Avenida Brasil, 456'),
+('Mariana', 'Costa Souza', 'F', 'Praça da Liberdade, 789'),
+('João', 'Almeida Silva', 'M', 'Rua do Sol, 101'),
+('Beatriz', 'Rodrigues Santos', 'F', 'Avenida Paulista, 202'),
+('Pedro', 'Gomes Ferreira', 'M', 'Rua das Palmeiras, 303'),
+('Fernanda', 'Martins Oliveira', 'F', 'Avenida das Américas, 404'),
+('Lucas', 'Barbosa Lima', 'M', 'Rua da Paz, 505'),
+('Larissa', 'Fernandes Costa', 'F', 'Praça Central, 606');
